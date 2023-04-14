@@ -3,7 +3,7 @@ import pygame
 from Settings import settings
 import self
 
-
+#here it will just create blank card with ship image
 class AlienInvasion:
     """Overall class to manage game assets and behaviour"""
 
@@ -32,3 +32,5 @@ def run_game():
         if __name__ == '__main__':
             ai = AlienInvasion()
             ai.run_game()
+            
+# The ship crreation part ends here
